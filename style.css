@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppinsb;
+    src: url(Poppins-Bold.ttf);
+  }
+@font-face {
+    font-family: poppinsr;
+    src: url(Poppins-Regular.ttf);
+  }
+  
+
+.box{
+    background-color: #1A9FFF ;
+    width: 1920px;
+    height: 1180px;
+}
+
+.doctorb{
+    background-color: #1A9FFF ;
+    width: 526px;
+    height: 642px;
+    border: 5px solid white;
+}
+
+.judulL{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+    font-family: 'poppinsb';
+}
+
+.list1{
+    background-color: #00518B;
+    width: 620px;
+    height: 63px;
+    position: relative;
+    left: -3.6em;
+}
+
+.textst{
+    display: inline-block;
+    width: 30%;
+    line-height: 63px;
+    color:#FFFFFF;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7em;
+    border-right: 3px solid #ffffffa1 ;
+    
+}
+
+.textmid{
+    display: inline-block;
+    width: 45%;
+    line-height: 63px;
+    text-align: center;
+    color:#03bc00;
+    font-weight: 500;
+    font-size: 1.5em;
+    border-right: 3px solid #FFFFFFa1 ;
+    
+}
+
+.textend{
+    display: inline-block;
+    width: 20%;
+    line-height: 63px;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 1.7em;
+    text-align: center;
+    
+}
+
+
+.judulV{
+    margin: 1em 0em 0em 7em;
+    font-weight: 600;
+    font-family: 'poppinsb';
+
+}
+
+.paragraf{
+    margin: 1em 0em 0em 0.5em;
+    font-size: 1.8em;
+
+}
+
+.kotakL{
+    background-color: #4EB4FF;
+    width: 391px;
+    height: 337px;
+    border-radius: 5%;
+    margin: 0em 0em 0em 17em ;
+}
+
+.corent{
+    padding: 15px 0px 0px 0px ;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+    font-family: 'poppinsb';
+}
+
+.kotakin{
+    background-color: #ffffffc5;
+    width: 238px;
+    height: 147px;
+    border-radius: 10%;
+    margin: 3em 0px 0px 4.6em;
+}
+
+.lingkaran{
+    border-radius: 50%;
+    width: 206px;
+    height: 206px;
+    background-color: #ffffffdf;
+    float: left;
+    margin: 4em 0px 0px 7.5em;
+}
+
+
+.A{
+    color: #00518B;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'poppinsb';   
+    line-height: 147px; 
+    margin: 0px 0px 0px 0.4em;
+}
+
+.number{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'poppinsb';  
+    -webkit-text-stroke: 2px black;
+
+}
+
+.tTime{
+    margin: 3.7em 0px 0px 1em;
+}
+
+.tDate{
+    margin: 0em 0px 0px 1.2em;
+}
+
+.tDay{
+    margin: 0em 0px 0px 2.3em;
+}
+
+
+
+#time{
+    color: #00518B;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'poppinsb';
+}
+
+#date{
+    text-align: center;
+    color: #00518B;
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: 'poppinsr';
+}
+
+#day{
+    color: #00518B;
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'poppinsb';
+}

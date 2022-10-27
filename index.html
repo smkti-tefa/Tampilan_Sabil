@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" >
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   
+    <div class="container-fluid box">
+      <div class="row">
+
+        <div class="col-8 mt-3">
+          <video width="1280" height="720" autoplay loop muted>
+            <source src="movie.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="col-4 mt-4">
+
+          <div class="doctorb mt-2">
+            <h3 class="judulL mt-3">Today's Doctor</h3>
+            <div class="list1 mt-5"> 
+              <span class="textst">Dr.Nopalin</span> 
+              <span class="textmid">Spesialis Mata</span> 
+              <span class="textend">305</span> 
+            </div>
+            <div class="list1 mt-5"><span class="textst">Dr.Nopalin</span> <span class="textmid">Spesialis Mata</span> <span class="textend">305</span> </div>
+            <div class="list1 mt-5"><span class="textst">Dr.Nopalin</span> <span class="textmid">Spesialis Mata</span> <span class="textend">305</span> </div>
+            <div class="list1 mt-5"><span class="textst">Dr.Nopalin</span> <span class="textmid">Spesialis Mata</span> <span class="textend">305</span> </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+  <div class="row">
+
+    <div class="col-7">
+
+      <h1 class="judulV">
+        Kisah Kelinci Putih yang obesitas
+      </h1>
+
+      <p class="paragraf">
+        Ini adalah kisah tentang Seorang kelinci yang gagal diet di karenakan daatngnya seekor kupu2,suatu ketika saat itu ada kelinci bernama habi dia adalah kelinci obesitas yang tergila gila akan makanan tapi setelah dia melihat kaca dia sadar betapa jelek dan gemuk nya dia,dia sadar betapa kurengnya dirinya setelah dia melihat kaca itu dia bertekad untuk diet hari demi hari dia lewati dengan damai namun pada hari ke 359 hari di mana dekat dengan anniv dia 1 tahunan diet tiba2 ada seekor kupu-kupu lewat dan menjatuhkan apel dari situ dia mulai ter goda dan memakan apel beserta pohonnya dengan sangat brutal maka dari itu video saya potong sampai di scene dimana apel tersebut jatuh sekiian
+      </p>
+
+    </div>
+
+    <div class="col-5">
+      <div class="lingkaran">
+        <div class="tTime"> <span id="time"> </span></div>
+        <div class="tDate"> <span id="date"> </span></div>
+        <div class="tDay"> <span id="day"> </span></div>
+      </div>
+      <div class="kotakL">
+        <h3 class="corent">Corent Number</h3>
+        <div class="kotakin">
+          <span class="A">A</span>
+          <span class="number">005</span>
+        </div>
+      </div>
+
+      
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+  
+  <script>
+    function refreshTime() {
+  // const dateString = new Date().toLocaleString();
+  var datetime = new Date().toLocaleTimeString();
+  console.log(datetime); // it will represent date in the console of developers tool
+  document.getElementById("time").textContent = datetime; // represent on html page
+  
+}
+  setInterval(refreshTime, 1000);
+
+function date() {
+ 
+  var today = new Date();
+  var year = today.getFullYear();
+  var mes = today.getMonth()+1;
+  var dia = today.getDate();
+  var fecha =dia+"-"+mes+"-"+year;
+  // console.log(fecha);
+  // const timeDisplay = document.getElementById("date");
+  document.getElementById("date").textContent = fecha;
+}
+
+date();
+
+
+  
+function myDate() {
+        var a = new Date();
+        var days = new Array(7);
+        days[0] = "Sunday";
+        days[1] = "Monday";
+        days[2] = "Tuesday";
+        days[3] = "Wednesday";
+        days[4] = "Thursday";
+        days[5] = "Friday";
+        days[6] = "Saturday";
+        var r = days[a.getDay()];
+        document.getElementById("day").innerHTML = r;
+    }
+
+myDate();
+
+  </script>
+
+</html>
